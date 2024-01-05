@@ -1,0 +1,63 @@
+/* common shared styles */
+
+* {
+  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+/* css variable */
+:root{
+    --primary-color: #FD6E0A;
+    --primary-black-color: #181818;
+    --secondary-black-color: #474747;
+    --primary-text-color: #757575;
+    --button-text-color: #FFF;
+
+}
+
+/* nav related styles */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-title {
+  color: var(--primary-black-color) ;
+  font-size: 45px;
+  font-weight: 800;
+}
+
+.uncommon-letter{
+    color: var(--primary-color);
+}
+
+nav > ul{
+    display: flex;
+    align-items: center;
+    
+}
+
+nav li{
+    list-style: none;
+    margin: 18px 51px 19px 0px;
+
+}
+
+nav a{
+    text-decoration: none;
+    color: var(--secondary-black-color);
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.primary-button{
+    color: var(--button-text-color);
+    background-color: var(--primary-color);
+    padding: 18px 35px 19px 36px ;
+    border: 0;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 5px;
+}
