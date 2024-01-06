@@ -235,3 +235,19 @@ footer{
   flex-direction: column;
   gap: 25px;
 }
+
+.contact-form input[type="text"],.contact-form input[type="email"], textarea{
+  padding: 18px 35px;
+  color: var(--primary-text-color);
+  border-radius: 5px;
+  background-color: var(--button-text-color);
+  border: none;
+  width: 100%;
+}
+.form-button{
+  width: 200px;
+}
+.social-link a img{
+  margin-right: 15px;
+  margin-top: 30px;
+}
