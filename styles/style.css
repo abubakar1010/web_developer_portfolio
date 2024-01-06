@@ -45,7 +45,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 70px;
+  margin: 0 130px;
 }
 
 .nav-title {
@@ -81,10 +81,11 @@ nav a {
   background-color: var(--header-background-color);
   /* width: 100%;
     height: 837px; */
-  background-image: url("../images/header_bg.png");
+  background-image: url("../images/header_bg.png"), url('../images/developer.png');
   background-repeat: no-repeat;
-  background-position: bottom right;
-  background-size: 584px;
+  background-position: bottom right, center left;
+  background-size: 750px auto , 90px 630px;
+
 }
 
 .banner {
@@ -97,7 +98,8 @@ nav a {
   max-width: 500px;
 }
 .banner .banner-image {
-  width: 350px;
+  width: 500px;
+  padding-right: 40px;
 }
 .banner-intro {
   font-size: 35px;
@@ -250,4 +252,8 @@ footer{
 .social-link a img{
   margin-right: 15px;
   margin-top: 30px;
+}
+
+.icon-image{
+  margin-right: 15px;
 }
